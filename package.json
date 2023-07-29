@@ -1,0 +1,17 @@
+{
+  "name": "your-stremio-addon",
+  "version": "1.0.0",
+  "description": "Your Stremio add-on description",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "stremio-addon-sdk": "*"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": []
+}
