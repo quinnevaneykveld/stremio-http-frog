@@ -9,7 +9,7 @@ const manifest = {
     description: 'HTTP frog retrieves http streams from various sources',
     resources: ['catalog', 'stream'],
     types: ['movie', 'series'],
-    idPrefixes: ['tt'], // Prefix for IMDb IDs
+    idPrefixes: ['tt'] // Prefix for IMDb IDs
 };
 
 const builder = new addonBuilder(manifest);
