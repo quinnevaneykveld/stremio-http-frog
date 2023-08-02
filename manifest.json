@@ -1,16 +1,16 @@
 {
-    "id": "http-frog",
-    "version": "0.0.1",
-    "name": "HTTP frog",
-    "description": "HTTP frog retrieves http streams from various sources",
-    "resources": ["catalog", "stream"],
-    "types": ["movie", "series"],
-    "idPrefixes": ["tt"],
-    "catalogs": [
-        {
-          "id": "config",
-          "type": "config",
-          "name": "Configure the sources this addon may use"
-        }
-      ]
+  "id": "http-frog",
+  "version": "0.0.1",
+  "name": "HTTP frog",
+  "description": "HTTP frog retrieves http streams from various sources",
+  "resources": ["catalog", "stream"],
+  "types": ["movie", "series"],
+  "idPrefixes": ["tt"],
+  "catalogs": [
+      {
+        "id": "config",
+        "type": "config",
+        "name": "Configure the sources this addon may use"
+      }
+  ]
 }
