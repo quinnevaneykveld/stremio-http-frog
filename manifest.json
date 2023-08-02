@@ -6,11 +6,4 @@
   "resources": ["catalog", "stream"],
   "types": ["movie", "series"],
   "idPrefixes": ["tt"],
-  "catalogs": [
-      {
-        "id": "config",
-        "type": "config",
-        "name": "Configure the sources this addon may use"
-      }
-  ]
 }
