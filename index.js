@@ -14,13 +14,6 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
-builder.defineCatalogHandler((args) => {
-  const catalogs = [
-      // Your catalog items here
-  ];
-  return Promise.resolve({ metas: catalogs });
-});
-
 builder.defineStreamHandler(args => {
     // Your stream logic here
     return Promise.resolve({ streams: [] });
