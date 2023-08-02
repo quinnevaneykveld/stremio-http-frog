@@ -4,7 +4,7 @@ const { ConfigPage, getConfig } = require("./configstreams"); // Import from con
 
 const manifest = {
     id: 'http-frog',
-    version: '0.0.0.1',
+    version: '0.0.1',
     name: 'HTTP frog',
     description: 'HTTP frog retrieves http streams from various sources',
     resources: ['catalog', 'stream'],
