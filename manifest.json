@@ -5,5 +5,5 @@
   "description": "HTTP frog retrieves http streams from various sources",
   "resources": ["stream"],
   "types": ["movie", "series"],
-  "idPrefixes": ["tt"],
+  "idPrefixes": ["tt"]
 }

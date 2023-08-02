@@ -7,7 +7,7 @@ const manifest = {
     version: '0.0.1',
     name: 'HTTP frog',
     description: 'HTTP frog retrieves http streams from various sources',
-    resources: ['catalog', 'stream'],
+    resources: ['stream'],
     types: ['movie', 'series'],
     idPrefixes: ['tt'] // Prefix for IMDb IDs
 };
